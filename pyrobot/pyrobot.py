@@ -48,12 +48,12 @@ class PyroBot(Client):
         usr_bot_me = await self.get_me()
         self.set_parse_mode("html")
         LOGGER.info(
-            f"PyroGramBot based on Pyrogram v{__version__} "
-            f"(Layer {layer}) started on @{usr_bot_me.username}. "
-            "Hi."
+            f"UserBot, hecho por Skueletor v{__version__} "
+            f"(Layer {layer}) comenzó en @{usr_bot_me.username}. "
+            "Hola."
         )
 
 
     async def stop(self, *args):
         await super().stop()
-        print("PyroGramBot stopped. Bye.")
+        print("Userbot se detuvo. Adiós.")
