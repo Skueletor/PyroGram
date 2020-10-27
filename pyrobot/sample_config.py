@@ -24,7 +24,7 @@ class Config():
     # set this to your fork on GitHub (if you want)
     OFFICIAL_UPSTREAM_REPO = os.environ.get(
         "OFFICIAL_UPSTREAM_REPO",
-        "https://github.com/SpEcHiDe/PyroGramUserBot"
+        "https://telegram.me/BotsDeSkueletor"
     )
     # For Databases
     # can be None in which case plugins requiring
