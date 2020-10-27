@@ -34,7 +34,7 @@ async def purge(client, message):
         )
 
     await status_message.edit_text(
-        f"deleted {len(message_ids)} messages"
+        f"He eliminado {len(message_ids)} mensajes"
     )
     await asyncio.sleep(5)
     await status_message.delete()
